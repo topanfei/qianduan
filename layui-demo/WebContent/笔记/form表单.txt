@@ -1,0 +1,6 @@
+form表单
+（1）验证方式提示方式有三种，分别是：lay-verType=tips（吸附层）/alert（对话框）/msg（默认）
+（2）验证方式的提示语可以自定义，我的form.html的示例中的selfCheck(form)的方法就是自定义的表单验证，需要在需要的表单元素上使用
+	lay-verify="input_title_verify" 
+（3）我有修改layui的form的源码js。（js/layui/lay/modules/form.js）。将tips的提示方式，原来是默认在标签的右边提示。
+	现在改成在标签的下面，并且以红色样式显示。
