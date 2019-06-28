@@ -73,5 +73,7 @@
 	<link rel="stylesheet" href="uiPlugs/custom/css/custom.css" type="text/css">
 	<script type="text/javascript" src="uiPlugs/custom/js/custom.js"></script>
 	
+	<script type="text/javascript" src="demo/jquery-self-invoking/module3/custom.js"></script>
+	
 </head>
 </html>

@@ -26,6 +26,13 @@
 			<div class="main-content-inner">
 				<div class="page-content">
 					<div class="row">
+						<div class="col-sm-12">
+							<button class="btn btn-primary" onclick="window.location.href='index.jsp'">
+								<i class="fa fa-reply marginr5">返回</i>
+							</button>
+						</div>
+					</div>
+					<div class="row">
 						<div class="col-xs-12">
 							<!-- 表单开始 -->
 							<form class="form-horizontal" id="validation-form" method="POST">

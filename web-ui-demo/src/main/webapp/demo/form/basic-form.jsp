@@ -12,6 +12,13 @@
 <base href="<%=path%>">
 </head>
 <body>
+	<div class="row">
+		<div class="col-sm-12">
+			<button class="btn btn-primary" onclick="window.location.href='index.jsp'">
+				<i class="fa fa-reply marginr5">返回</i>
+			</button>
+		</div>
+	</div>
 	<form class="cmxform" id="commentForm" method="get" action="">
 	  <fieldset>
 	    <legend>输入您的名字，邮箱，URL，备注。</legend>
